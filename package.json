@@ -1,0 +1,11 @@
+{
+  "name": "node-twitter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "katai5plate <katai5plate.sub@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.87.0",
+    "twitter": "^1.7.1"
+  }
+}
