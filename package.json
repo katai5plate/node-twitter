@@ -5,6 +5,7 @@
   "author": "katai5plate <katai5plate.sub@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "date-and-time": "^0.6.2",
     "twitter": "^1.7.1"
   },
   "scripts": {

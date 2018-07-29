@@ -41,4 +41,4 @@ yarn start <取得ツイート数> <取得開始するツイートID>
 
 ## メモ
 ### 動画URLの取得方法
-- `tweet.media.media_url`の`http://pbs.twimg.com/tweet_video_thumb/*********.jpg`を`https://video.twimg.com/tweet_video/*********.mp4`にすればいい
+- `tweet.media[].media_url`の`http://pbs.twimg.com/tweet_video_thumb/*********.jpg`を`https://video.twimg.com/tweet_video/*********.mp4`にすればいい
