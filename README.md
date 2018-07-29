@@ -38,3 +38,7 @@ module.exports = client;
 ```coffee
 yarn start <取得ツイート数> <取得開始するツイートID>
 ```
+
+## メモ
+### 動画URLの取得方法
+- `tweet.media.display_url`の`pic.twitter.com/*********`を`https://video.twimg.com/tweet_video/*********.mp4`にすればいい
