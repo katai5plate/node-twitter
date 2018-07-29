@@ -50,6 +50,7 @@ const _fromId = process.argv[3] || Number.NaN;
                     `${process.cwd()}/output/${fname}_x${fcount}.json`,
                     JSON.stringify(result, null, "\t")
                 );
+                console.log(`\nNEXT TWEET ID: ${result[result.length - 1].tweet.id}\n`);
             } else {
                 console.log({ error });
             }
