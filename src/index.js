@@ -2,7 +2,7 @@ const fs = require("fs");
 const client = require("./auth");
 const date = require("date-and-time");
 
-const _count = process.argv[2] || 5;
+let _count = (process.argv[2] > 200 ? 200 : process.argv[2]) || 5;
 const _fromId = process.argv[3] || Number.NaN;
 
 (() => {
